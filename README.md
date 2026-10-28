@@ -13,7 +13,7 @@ Atendimento pelo WhatsApp com agentes de IA e equipe na mesma caixa de entrada.
 
 ![Status](https://img.shields.io/badge/status-pr%C3%A9--lan%C3%A7amento-00b85e)
 ![WhatsApp](https://img.shields.io/badge/WhatsApp-API%20oficial%20da%20Meta-25D366?logo=whatsapp&logoColor=white)
-![Dados](https://img.shields.io/badge/dados-no%20Brasil-0a7a46)
+![Hospedagem](https://img.shields.io/badge/plataforma-no%20Brasil-0a7a46)
 ![Privacidade](https://img.shields.io/badge/privacidade-LGPD-0a7a46)
 
 </div>
@@ -111,7 +111,7 @@ sequenceDiagram
 
 ## A IA da PyraChat
 
-A IA da PyraChat tem três níveis, para equilibrar custo e capacidade em cada agente:
+A IA da PyraChat roda em **modelos próprios**, hospedados em servidores nos Estados Unidos, e tem três níveis, para equilibrar custo e capacidade em cada agente:
 
 | Nível | Perfil |
 |---|---|
@@ -137,11 +137,11 @@ A IA da PyraChat tem três níveis, para equilibrar custo e capacidade em cada a
 ## Segurança e privacidade
 
 - **API oficial do WhatsApp**, da Meta. Nada de conexão não oficial pelo QR code, que coloca o número em risco.
-- **Dados no Brasil.** A plataforma e as cópias de segurança ficam em servidores em São Paulo.
+- **Plataforma no Brasil.** A plataforma e as cópias de segurança ficam em servidores em São Paulo. Os modelos de IA próprios da PyraChat rodam em servidores nos Estados Unidos.
 - **Cada empresa isolada.** O isolamento entre empresas é garantido no próprio banco de dados, não só no código, e é testado a cada alteração.
 - **Proteção de acesso.** Verificação em duas etapas, sessões protegidas, registro de auditoria e verificação contra robôs no cadastro.
 - **Criptografia** dos acessos ao WhatsApp e cópias de segurança cifradas.
-- **LGPD.** Termos de Uso, Política de Privacidade e Política de Cookies públicos, com encarregado de dados. As conversas dos clientes não são usadas para treinar modelos de IA.
+- **LGPD.** Termos de Uso, Política de Privacidade e Política de Cookies públicos, com encarregado de dados. As conversas só são usadas para melhorar a IA quando o cliente autoriza, ao criar o agente.
 - **Falhas de segurança** podem ser comunicadas a [seguranca@pyrachat.com](mailto:seguranca@pyrachat.com).
 
 ## Próximas atualizações

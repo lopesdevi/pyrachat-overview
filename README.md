@@ -107,7 +107,7 @@ sequenceDiagram
 | **Fluxos** | Editor visual de automações: gatilhos (palavra-chave, contato novo, etiqueta, etapa do funil, conversa encerrada, lembrete e falta na agenda) e blocos (mensagem, botões, listas, mídia, esperar, condições, IA, divisão de público, oferecer horários). Prévia num WhatsApp simulado. |
 | **Agenda** | Agendas com capacidade, visão de dia, semana e mês, horários oferecidos pelo próprio fluxo, lembrete e aviso de falta. |
 | **Relatórios** | Atendimento, IA, equipe e agenda: primeira resposta, tempo de resolução, carga por pessoa, consumo de IA e comparecimento. |
-| **Equipe e conta** | Papéis (dono, administrador, atendente, leitura), convites, verificação em duas etapas e registro de auditoria. |
+| **Equipe e conta** | Papéis (dono, administrador, atendente, leitura), convites, verificação em duas etapas, logo da empresa no menu de toda a equipe e registro de auditoria. |
 
 ## A IA da PyraChat
 
@@ -139,7 +139,7 @@ A IA da PyraChat roda em **modelos próprios**, hospedados em servidores nos Est
 - **API oficial do WhatsApp**, da Meta. Nada de conexão não oficial pelo QR code, que coloca o número em risco.
 - **Plataforma no Brasil.** A plataforma e as cópias de segurança ficam em servidores em São Paulo. Os modelos de IA próprios da PyraChat rodam em servidores nos Estados Unidos.
 - **Cada empresa isolada.** O isolamento entre empresas é garantido no próprio banco de dados, não só no código, e é testado a cada alteração.
-- **Proteção de acesso.** Verificação em duas etapas, sessões protegidas, registro de auditoria e verificação contra robôs no cadastro.
+- **Proteção de acesso.** Verificação em duas etapas, sessões protegidas, registro de auditoria, pausa depois de tentativas erradas de entrada e verificação contra robôs no cadastro e na entrada.
 - **Criptografia** dos acessos ao WhatsApp e cópias de segurança cifradas.
 - **LGPD.** Termos de Uso, Política de Privacidade e Política de Cookies públicos, com encarregado de dados. As conversas só são usadas para melhorar a IA quando o cliente autoriza, ao criar o agente.
 - **Falhas de segurança** podem ser comunicadas a [seguranca@pyrachat.com](mailto:seguranca@pyrachat.com).
@@ -183,6 +183,9 @@ O que está planejado ou em estudo. A lista evolui conforme o uso, sem datas fix
 
 | Versão | O que chegou |
 |---|---|
+| v0.22 | Logo da empresa no menu, entrada mais espaçosa e a mesma marca no app e no site |
+| v0.21 | Acesso antecipado e novas telas de entrada |
+| v0.20 | Entrada mais protegida, Condições Comerciais e [blog de novidades](https://pyrachat.com/blog) |
 | v0.19 | Site público, Termos e políticas, domínio pyrachat.com |
 | v0.18 | Nova interface: mais espaço, controles próprios e modais |
 | v0.16 – v0.17 | Agenda, horários oferecidos pelo fluxo, lembretes e falta |

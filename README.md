@@ -142,7 +142,7 @@ A IA da PyraChat roda em **modelos próprios**, hospedados em servidores nos Est
 - **API oficial do WhatsApp**, da Meta. Nada de conexão não oficial pelo QR code, que coloca o número em risco.
 - **Plataforma no Brasil.** A plataforma e as cópias de segurança ficam em servidores em São Paulo. Os modelos de IA próprios da PyraChat rodam em servidores nos Estados Unidos.
 - **Cada empresa isolada.** O isolamento entre empresas é garantido no próprio banco de dados, não só no código, e é testado a cada alteração.
-- **Proteção de acesso.** Verificação em duas etapas, sessões protegidas, registro de auditoria, pausa depois de tentativas erradas de entrada e verificação contra robôs no cadastro e na entrada.
+- **Proteção de acesso.** Verificação em duas etapas (com QR code para o aplicativo autenticador), sessões protegidas, registro de auditoria, pausa depois de tentativas erradas de entrada e verificação contra robôs no cadastro e na entrada.
 - **Criptografia** dos acessos ao WhatsApp e cópias de segurança cifradas.
 - **LGPD.** Termos de Uso, Política de Privacidade e Política de Cookies públicos, com encarregado de dados. As conversas só são usadas para melhorar a IA quando o cliente autoriza, ao criar o agente.
 - **Pedidos de titular.** A empresa exporta ou apaga os dados de um contato, deixa de contatar quem pediu e escolhe por quanto tempo guardar as conversas. O dono exporta todos os dados da empresa quando quiser.
@@ -187,7 +187,7 @@ O que está planejado ou em estudo. A lista evolui conforme o uso, sem datas fix
 
 | Versão | O que chegou |
 |---|---|
-| v0.30 | Exportar todos os dados da empresa num arquivo só e prazos claros no encerramento da conta |
+| v0.30 | Exportar todos os dados da empresa num arquivo só, prazos claros no encerramento da conta e QR code na verificação em duas etapas |
 | v0.29 | Privacidade dos contatos: exportar, apagar, "não contatar" e prazo de guarda das conversas |
 | v0.28 | Crédito de IA: nível por agente e pacotes de crédito, prontos para o lançamento |
 | v0.27 | Trocar de plano e de forma de pagamento pela plataforma, pronto para o lançamento |

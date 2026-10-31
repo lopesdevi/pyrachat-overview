@@ -130,7 +130,8 @@ A IA da PyraChat roda em **modelos próprios**, hospedados em servidores nos Est
 | Sem crédito de IA | a partir de **R$ 49,90/mês** | não incluso |
 | Com crédito de IA | a partir de **R$ 79,90/mês** | R$ 29,90 por mês |
 
-- **Teste grátis (no lançamento):** 72 horas de uso, uma vez por empresa ou pessoa.
+- **Teste grátis (no lançamento):** 72 horas de uso, uma vez por empresa ou pessoa, com o celular confirmado e a forma de pagamento cadastrada. Cancelando antes do fim, nada é cobrado; sem cancelar, a assinatura do plano escolhido começa.
+- **Pagamento (no lançamento):** Pix Automático ou cartão, dentro da própria plataforma, sem link externo. Os dados do cartão ficam com a instituição de pagamento, não com a PyraChat.
 - **Planos especiais** para operações maiores, com o nosso comercial.
 - **Valores de lançamento.** A tabela completa sai no lançamento, e as condições em vigor ficam sempre em [pyrachat.com](https://pyrachat.com).
 
@@ -151,7 +152,6 @@ O que está planejado ou em estudo. A lista evolui conforme o uso, sem datas fix
 ### Pagamentos
 
 - **Pix na conversa:** cobrança gerada pela IA ou pela equipe e baixa automática quando o cliente paga.
-- **Cobrança automática** da assinatura.
 - **Gateways de pagamento**, como Mercado Pago, Stripe, Asaas, PagBank, Efí, Pagar.me e Woovi.
 
 ### Marketplaces e e-commerce
@@ -183,6 +183,7 @@ O que está planejado ou em estudo. A lista evolui conforme o uso, sem datas fix
 
 | Versão | O que chegou |
 |---|---|
+| v0.23 – v0.26 | Pagamento da assinatura dentro da plataforma (Pix Automático e cartão) e teste grátis protegido, prontos para o lançamento |
 | v0.22 | Logo da empresa no menu, entrada mais espaçosa e a mesma marca no app e no site |
 | v0.21 | Acesso antecipado e novas telas de entrada |
 | v0.20 | Entrada mais protegida, Condições Comerciais e [blog de novidades](https://pyrachat.com/blog) |

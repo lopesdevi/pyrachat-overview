@@ -101,13 +101,13 @@ sequenceDiagram
 | **Caixa de entrada** | Conversas em tempo real, equipes com rodízio, assumir e transferir, notas internas, respostas rápidas, horário de atendimento e mensagens automáticas. |
 | **Agentes de IA** | Criar agentes por etapas (papel, objetivo, regras, exemplos), testar antes de publicar, guardar versões e escolher entre responder sozinho ou só sugerir respostas. |
 | **WhatsApp oficial** | Conectar o número pela Meta em poucos cliques, criar e enviar modelos de mensagem e respeitar automaticamente quem pediu para sair. |
-| **Contatos** | Etiquetas, campos personalizados, segmentos e importação de planilhas. |
+| **Contatos** | Etiquetas, campos personalizados, segmentos e importação de planilhas. Exportar ou apagar os dados de um contato a pedido dele. |
 | **Funil** | Etapas de venda, oportunidades com valor e um quadro para arrastar. |
 | **Disparos** | Campanhas para segmentos ou etiquetas, com agendamento, ritmo controlado e relatório de entregues e lidos. |
 | **Fluxos** | Editor visual de automações: gatilhos (palavra-chave, contato novo, etiqueta, etapa do funil, conversa encerrada, lembrete e falta na agenda) e blocos (mensagem, botões, listas, mídia, esperar, condições, IA, divisão de público, oferecer horários). Prévia num WhatsApp simulado. |
 | **Agenda** | Agendas com capacidade, visão de dia, semana e mês, horários oferecidos pelo próprio fluxo, lembrete e aviso de falta. |
 | **Relatórios** | Atendimento, IA, equipe e agenda: primeira resposta, tempo de resolução, carga por pessoa, consumo de IA e comparecimento. |
-| **Equipe e conta** | Papéis (dono, administrador, atendente, leitura), convites, verificação em duas etapas, logo da empresa no menu de toda a equipe e registro de auditoria. |
+| **Equipe e conta** | Papéis (dono, administrador, atendente, leitura), convites, verificação em duas etapas, logo da empresa no menu de toda a equipe, registro de auditoria e exportação de todos os dados da empresa num arquivo só. |
 
 ## A IA da PyraChat
 
@@ -132,6 +132,8 @@ A IA da PyraChat roda em **modelos próprios**, hospedados em servidores nos Est
 
 - **Teste grátis (no lançamento):** 72 horas de uso, uma vez por empresa ou pessoa, com o celular confirmado e a forma de pagamento cadastrada. Cancelando antes do fim, nada é cobrado; sem cancelar, a assinatura do plano escolhido começa.
 - **Pagamento (no lançamento):** Pix Automático ou cartão, dentro da própria plataforma, sem link externo. Os dados do cartão ficam com a instituição de pagamento, não com a PyraChat.
+- **Trocar de plano ou de forma de pagamento (no lançamento)** pela própria plataforma. A troca vale na próxima cobrança, sem valor proporcional.
+- **Crédito de IA avulso (no lançamento):** pacotes de R$ 20 a R$ 500, ou outro valor nessa faixa, por Pix ou cartão, válidos por 12 meses. O crédito incluso no plano é usado primeiro.
 - **Planos especiais** para operações maiores, com o nosso comercial.
 - **Valores de lançamento.** A tabela completa sai no lançamento, e as condições em vigor ficam sempre em [pyrachat.com](https://pyrachat.com).
 
@@ -143,6 +145,8 @@ A IA da PyraChat roda em **modelos próprios**, hospedados em servidores nos Est
 - **Proteção de acesso.** Verificação em duas etapas, sessões protegidas, registro de auditoria, pausa depois de tentativas erradas de entrada e verificação contra robôs no cadastro e na entrada.
 - **Criptografia** dos acessos ao WhatsApp e cópias de segurança cifradas.
 - **LGPD.** Termos de Uso, Política de Privacidade e Política de Cookies públicos, com encarregado de dados. As conversas só são usadas para melhorar a IA quando o cliente autoriza, ao criar o agente.
+- **Pedidos de titular.** A empresa exporta ou apaga os dados de um contato, deixa de contatar quem pediu e escolhe por quanto tempo guardar as conversas. O dono exporta todos os dados da empresa quando quiser.
+- **Encerramento da conta (no lançamento).** Depois do cancelamento, os dados ficam 30 dias para exportar ou contratar de novo (60 dias na suspensão por falta de pagamento, com aviso antes) e depois são apagados. Fica só o que a lei manda guardar, como os dados de cobrança.
 - **Falhas de segurança** podem ser comunicadas a [seguranca@pyrachat.com](mailto:seguranca@pyrachat.com).
 
 ## Próximas atualizações
@@ -183,6 +187,10 @@ O que está planejado ou em estudo. A lista evolui conforme o uso, sem datas fix
 
 | Versão | O que chegou |
 |---|---|
+| v0.30 | Exportar todos os dados da empresa num arquivo só e prazos claros no encerramento da conta |
+| v0.29 | Privacidade dos contatos: exportar, apagar, "não contatar" e prazo de guarda das conversas |
+| v0.28 | Crédito de IA: nível por agente e pacotes de crédito, prontos para o lançamento |
+| v0.27 | Trocar de plano e de forma de pagamento pela plataforma, pronto para o lançamento |
 | v0.23 – v0.26 | Pagamento da assinatura dentro da plataforma (Pix Automático e cartão) e teste grátis protegido, prontos para o lançamento |
 | v0.22 | Logo da empresa no menu, entrada mais espaçosa e a mesma marca no app e no site |
 | v0.21 | Acesso antecipado e novas telas de entrada |

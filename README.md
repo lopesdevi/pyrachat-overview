@@ -132,6 +132,7 @@ A IA da PyraChat roda em **modelos próprios**, hospedados em servidores nos Est
 
 - **Teste grátis (no lançamento):** 72 horas de uso, uma vez por empresa ou pessoa, com o celular confirmado e a forma de pagamento cadastrada. Cancelando antes do fim, nada é cobrado; sem cancelar, a assinatura do plano escolhido começa.
 - **Pagamento (no lançamento):** Pix Automático ou cartão, dentro da própria plataforma, sem link externo. Os dados do cartão ficam com a instituição de pagamento, não com a PyraChat.
+- **Dados de cobrança (no lançamento):** com CNPJ, a razão social e o endereço vêm da Receita Federal; com CPF, o CEP completa o endereço.
 - **Trocar de plano ou de forma de pagamento (no lançamento)** pela própria plataforma. A troca vale na próxima cobrança, sem valor proporcional.
 - **Crédito de IA avulso (no lançamento):** pacotes de R$ 20 a R$ 500, ou outro valor nessa faixa, por Pix ou cartão, válidos por 12 meses. O crédito incluso no plano é usado primeiro.
 - **Planos especiais** para operações maiores, com o nosso comercial.
@@ -187,6 +188,7 @@ O que está planejado ou em estudo. A lista evolui conforme o uso, sem datas fix
 
 | Versão | O que chegou |
 |---|---|
+| v0.32 | Dados de cobrança pelo CNPJ (Receita Federal) ou pelo CEP, e o teste grátis mostrando o valor e o plano cobrados depois, prontos para o lançamento |
 | v0.30 | Exportar todos os dados da empresa num arquivo só, prazos claros no encerramento da conta e QR code na verificação em duas etapas |
 | v0.29 | Privacidade dos contatos: exportar, apagar, "não contatar" e prazo de guarda das conversas |
 | v0.28 | Crédito de IA: nível por agente e pacotes de crédito, prontos para o lançamento |

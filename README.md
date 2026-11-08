@@ -188,6 +188,7 @@ O que está planejado ou em estudo. A lista evolui conforme o uso, sem datas fix
 
 | Versão | O que chegou |
 |---|---|
+| v0.41 | E-mails novos com a identidade da Conta Pyra, nota fiscal automática de cada pagamento com XML e PDF (no lançamento) e termos em nome da Pyra Technologies |
 | v0.40 | Chat de atendimento no site, em todas as páginas, com texto, áudio e arquivos, no tema do site |
 | v0.39 | Caixa de entrada nova, menu lateral com busca rápida e atalhos de teclado, e Contatos com visões em abas e a ficha ao lado |
 | v0.32 | Dados de cobrança pelo CNPJ (Receita Federal) ou pelo CEP, e o teste grátis mostrando o valor e o plano cobrados depois, prontos para o lançamento |

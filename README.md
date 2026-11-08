@@ -107,6 +107,8 @@ sequenceDiagram
 | **Fluxos** | Editor visual de automações: gatilhos (palavra-chave, contato novo, etiqueta, etapa do funil, conversa encerrada, lembrete e falta na agenda) e blocos (mensagem, botões, listas, mídia, esperar, condições, IA, divisão de público, oferecer horários). Prévia num WhatsApp simulado. |
 | **Agenda** | Agendas com capacidade, visão de dia, semana e mês, horários oferecidos pelo próprio fluxo, lembrete e aviso de falta. |
 | **Relatórios** | Atendimento, IA, equipe e agenda: primeira resposta, tempo de resolução, carga por pessoa, consumo de IA e comparecimento. |
+| **API e integrações** | API pública em `api.pyrachat.com/v1` para conectar sistemas próprios: contatos com consentimento registrado, mensagens (texto, modelo e arquivo), conversas, etiquetas e avisos assinados no sistema do cliente a cada mensagem ou mudança. Chaves com permissões escolhidas, teste de envio sem enviar e documentação completa em [docs.pyrachat.com](https://docs.pyrachat.com). |
+| **Central de Ajuda** | Mais de 130 artigos com o passo a passo de cada tela, perguntas frequentes e atendimento por chat em [ajuda.pyrachat.com](https://ajuda.pyrachat.com). |
 | **Equipe e conta** | Papéis (dono, administrador, atendente, leitura), convites, verificação em duas etapas, logo da empresa no menu de toda a equipe, registro de auditoria e exportação de todos os dados da empresa num arquivo só. |
 
 ## A IA da PyraChat
@@ -177,7 +179,8 @@ O que está planejado ou em estudo. A lista evolui conforme o uso, sem datas fix
 ### Gestão e integrações
 
 - **Agenda integrada** ao Google Calendar.
-- **API pública e servidor MCP** para conectar sistemas próprios e assistentes de IA.
+- **Servidor MCP** para conectar assistentes de IA, sobre a API pública.
+- **Funil na API:** oportunidades e etapas pela API pública.
 - **Pixel da Meta** para medir campanhas.
 - **Perfis de permissão** personalizados.
 - **Verificação de identidade** para contratação por pessoa física.
@@ -188,6 +191,7 @@ O que está planejado ou em estudo. A lista evolui conforme o uso, sem datas fix
 
 | Versão | O que chegou |
 |---|---|
+| v0.42 | Central de Ajuda com mais de 130 artigos, API pública com mensagens, conversas e avisos para o sistema do cliente, e a documentação para desenvolvedores |
 | v0.41 | E-mails novos com a identidade da Conta Pyra, nota fiscal automática de cada pagamento com XML e PDF (no lançamento) e termos em nome da Pyra Technologies |
 | v0.40 | Chat de atendimento no site, em todas as páginas, com texto, áudio e arquivos, no tema do site |
 | v0.39 | Caixa de entrada nova, menu lateral com busca rápida e atalhos de teclado, e Contatos com visões em abas e a ficha ao lado |
@@ -216,6 +220,8 @@ O que está planejado ou em estudo. A lista evolui conforme o uso, sem datas fix
 |---|---|
 | Geral e comercial | [contato@pyrachat.com](mailto:contato@pyrachat.com) |
 | Suporte | [suporte@pyrachat.com](mailto:suporte@pyrachat.com) |
+| Central de Ajuda | [ajuda.pyrachat.com](https://ajuda.pyrachat.com) |
+| Documentação da API | [docs.pyrachat.com](https://docs.pyrachat.com) |
 | Privacidade | [privacidade@pyrachat.com](mailto:privacidade@pyrachat.com) |
 | Segurança | [seguranca@pyrachat.com](mailto:seguranca@pyrachat.com) |
 
